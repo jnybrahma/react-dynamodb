@@ -27,4 +27,3 @@ dynamodb.createTable(params, function(err, data) {
   else
     console.log("Created table with description: ", JSON.stringify(data, null, 2))
 });
-
